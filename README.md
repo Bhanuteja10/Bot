@@ -1,6 +1,6 @@
-# Personal Tutor Bot
+# Tutor Bot
 
-Welcome to the Personal Tutor Bot project! This is a web application that allows users to interact with an AI-powered personal tutor using a chat interface.
+Welcome to the Tutor Bot project! This is a web application that allows users to interact with an AI-powered tutor using a chat interface.
 
 ## Table of Contents
 - [Features](#features)
@@ -67,7 +67,7 @@ Replace the URL with the actual backend URL if it's different.
 
 ## Usage
 
-Access the web application by opening your browser and navigating to `http://localhost:3000`. You can interact with the personal tutor using the chat interface, upload files for analysis, and access educational resources.
+Access the web application by opening your browser and navigating to `http://localhost:3000`. You can interact with the tutor using the chat interface, upload files for analysis, and access educational resources.
 
 ## API Endpoints
 
