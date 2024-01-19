@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  backend:
+    env_file:
+      - ./backend/.env
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    container_name: backend
+    restart: always
+    volumes:
+      - ./backend/:/code/
+    ports:
+      - 5050:5050
+  client:
+    build: ./client
+    container_name: client_c
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true

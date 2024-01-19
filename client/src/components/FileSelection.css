@@ -1,0 +1,39 @@
+/* FileSelection.css */
+.file-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #507084;
+    padding: 20px;
+  }
+  
+  .file-selection-heading {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .file-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-button {
+    background-color: white;
+    color: #507084;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .file-button:hover {
+    background-color: #507084;
+    color: white;
+  }
+  

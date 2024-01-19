@@ -1,0 +1,116 @@
+/* Upload.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header bar */
+.header-bar {
+    background-color: #507084;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+/* Upload container */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Upload box */
+.upload-box {
+    border: 2px dashed #507084;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-box p {
+    margin: 0;
+    font-size: 18px;
+    color: #507084;
+    padding: 20px;
+}
+
+.upload-box:hover {
+    background-color: #f0f0f0;
+}
+
+/* File input */
+input[type="file"] {
+    margin-top: 20px;
+}
+
+/* Upload button */
+.upload-button {
+    background-color: #507084;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    /* Add margin to separate from the input box */
+}
+
+.upload-button:hover {
+    background-color: #40576d;
+}
+
+.upload-label {
+    display: block;
+    font-size: 18px;
+    color: #507084;
+}
+
+.hidden-input {
+    display: none;
+}
+
+/* Upload status messages */
+.upload-status {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.upload-status.success {
+    color: green;
+}
+
+.upload-status.error {
+    color: red;
+}
+
+.cancel-button {
+    background-color: #507084;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    /* Add margin to separate from the input box */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    flex-direction: row; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+  }

@@ -1,0 +1,275 @@
+/* Chat.css */
+
+/* General styling for the chat container */
+.chat-container {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: center;
+   height: calc(100vh - 65px);
+   padding-bottom: 5px;
+ }
+ 
+ /* Styling for the subjects section */
+ .subjects-section {
+   flex: 1;
+   padding: 20px;
+   max-width: 250px;
+   /* background-color: #507084; */
+ }
+ 
+ .new-chat-button {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #507084;
+   color: #fff;
+   border: none;
+   border-radius: 25px;
+   margin-bottom: 10px;
+   cursor: pointer;
+ }
+ .subject-button {
+  display: flex;
+   background-color: #ecf0f1;
+   border: none;
+   border-radius: 25px;
+   margin-bottom: 10px;
+   cursor: pointer;
+   padding: 8px 12px; /* Adjust the padding (top/bottom, left/right) */
+   
+}
+
+.subject-button-text {
+  overflow-wrap: break-word; /* Add this line */
+  word-break: break-all;
+}
+ 
+ /* Styling for the divider */
+ .divider {
+   width: 0.5px;
+   background-color: #507084;
+   margin-left: 10px; /* Add margin to move it to the right */
+ }
+ 
+ /* Styling for the chat section */
+ .chat-section {
+   flex: 3;
+   padding: 10px;
+   padding-bottom: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+ }
+ 
+ /* Styling for each chat message */
+ .message {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .user-message {
+   justify-content: flex-end;
+   flex: row-reverse;
+ }
+ 
+ .ptb-message {
+   justify-content: flex-start;
+ }
+ 
+ .avatar {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   margin: 8px;
+ }
+ 
+ .message-box {
+   padding: 10px;
+   border-radius: 15px;
+   margin-bottom: 10px;
+   max-width: 85%;
+ }
+ 
+ .user-box {
+   background-color: #507084;
+   color: #fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ 
+ .ptb-box {
+   background-color: #ecf0f1;
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .ptb-box p {
+  margin: 1px;
+ }
+
+ .user-box p {
+  margin: 1px;
+ }
+ 
+ .input-field {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 15px;
+   outline: none;
+ }
+ 
+ .send-button {
+   background-color: #507084;
+   color: #fff;
+   border: none;
+   border-radius: 50%;
+   width: 42px;
+   height: 42px;
+   margin-left: 10px;
+   cursor: pointer;
+   display: flex; /* Use flex display */
+   justify-content: center; /* Center content horizontally */
+   align-items: center; /* Center content vertically */
+ }
+
+ .header-bar {
+  background-color: #507084;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: large;
+  height: 94%;
+}
+
+.quiz-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #507084;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+.messajhgeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* Add scroll to the chat section */
+  max-height: 80vh; /* Set max height for the chat area */
+}
+
+.messageContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  position: sticky;
+  bottom: 0;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #507084;
+}
+
+/* Sign-out button */
+.sign-out-button {
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove button border */
+  color: white; /* Button text color */
+  font-size: 16px; /* Button text font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}
+
+/* Style the sign-out button on hover */
+.sign-out-button:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.bulb-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #507084;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.bulb-button:disabled{
+  opacity: 0.3;
+}
+
+.card {
+  background-color: #fff; /* Background color of the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for the card */
+  padding: 20px; /* Padding inside the card */
+  margin: 10px; /* Margin around the card */
+  max-width: 300px; /* Maximum width of the card */
+  text-align: left;
+  background-color: #fff; /* Background color of the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for the card */
+  padding: 20px; /* Padding inside the card */
+  max-width: 80%; /* Maximum width of the card */
+  z-index: 1001; /* Ensure the card is above the overlay */
+}
+
+/* Style card content */
+.card p {
+  font-size: 16px;
+  color: #333; /* Text color */
+}
+
+.disabled-button-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
+  top: 0;
+  left: 0;
+  pointer-events: none; /* This prevents interactions with the cover */
+  z-index: 1; /* Ensure the cover is above the button */
+}
+
+/* Add this CSS class for the overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
+  top: 0;
+  left: 0;
+  pointer-events: none; /* This prevents interactions with the overlay */
+  z-index: 2; /* Ensure the overlay is above the messages */
+}
+

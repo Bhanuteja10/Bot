@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #507084;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      max-width: 800px;
+    }
+
+    .left-section img {
+      max-width: 300px;
+      height: auto;
+    }
+
+    .right-section {
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    /* Customize the Google Sign-In button styles here */
+    /* You can use the default styles provided by react-google-login or create your own styles */
+    .google-btn {
+      background-color: #4285F4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .google-btn:hover {
+      background-color: #357AE8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="left-section">
+      <img src="bot.jpeg" alt="Personal Tutoring Bot" />
+    </div>
+    <div class="right-section">
+      <h1>Welcome to PTB</h1>
+      <p>Personal Tutoring Bot - Ask questions related to your lectures, quiz yourself, and revise with the bot.</p>
+      <button class="google-btn" onclick="loginWithGoogle()">Login using NAU email</button>
+    </div>
+  </div>
+  <script>
+    // You can handle the Google Sign-In functionality here if needed
+    function loginWithGoogle() {
+      // Implement the Google Sign-In logic here
+      // For example, you can use Google Sign-In JavaScript API or redirect to your React app's login page
+      // After successful login, redirect to the "/chat" page using window.location.href = "/chat";
+    }
+  </script>
+</body>
+
+</html>

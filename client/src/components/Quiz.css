@@ -1,0 +1,24 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .quiz-page {
+    animation: fadeIn 0.5s ease-in-out; /* Apply the animation */
+  }
+
+  .next-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #507084;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }

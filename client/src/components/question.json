@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the potential impact of higher CO2 concentrations on food supplies?",
+        "options": {
+            "A": "Decrease overall food availability",
+            "B": "Increase overall food availability",
+            "C": "Have no effect on food availability",
+            "D": "Increase food costs for the public"
+        },
+        "correct": "Increase overall food availability",
+        "numb": 1
+    },
+    {
+        "question": "How will warmer conditions affect water management systems?",
+        "options": {
+            "A": "They will require changes in how water management systems are operated.",
+            "B": "They will increase the amount of snow in winter.",
+            "C": "They will reduce the intensity of convective rainfall.",
+            "D": "They will decrease the flood safety margin."
+        },
+        "correct": "They will require changes in how water management systems are operated.",
+        "numb": 2
+    },
+    {
+        "question": "What is the projected rate of rise of sea level this century?",
+        "options": {
+            "A": "2 to 4 inches",
+            "B": "4 to 8 inches",
+            "C": "8 to 12 inches",
+            "D": "12 to 16 inches"
+        },
+        "correct": "4 to 8 inches",
+        "numb": 3
+    },
+    {
+        "question": "What are some potential impacts of climate change on transportation?",
+        "options": {
+            "A": "Higher levels in the Great Lakes and the St. Lawrence River",
+            "B": "Increased ice cover along coastlines",
+            "C": "Opening of Arctic waters for shipping",
+            "D": "Reduction in sediment and channel shifting"
+        },
+        "correct": "Opening of Arctic waters for shipping",
+        "numb": 4
+    },
+    {
+        "question": "According to the projections, which model predicts warmer and moister climatic conditions in the southeastern US?",
+        "options": {
+            "A": "Canadian model",
+            "B": "Hadley (U.K.) model",
+            "C": "Both models",
+            "D": "Neither model"
+        },
+        "correct": "Hadley (U.K.) model",
+        "numb": 5
+    }
+]

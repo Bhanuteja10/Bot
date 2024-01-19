@@ -1,0 +1,108 @@
+/* FirstPage.css */
+
+/* Style for the main container */
+.first-page {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px;
+}
+
+.bot-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style for the right side (Dialogue box) */
+.right-side {
+  flex: 2;
+  padding: 20px;
+}
+
+.dialogue-box {
+  background-color: #fff; /* Background color for the dialogue box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  margin-bottom: 100px;
+}
+
+/* Style for the text inside the dialogue box */
+.dialogue-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Text color */
+}
+
+.left-side {
+  flex: 0.35; /* Decrease the flex value to reduce left section's width */
+  max-width: 300px; /* Limit the maximum width of the left section */
+  height: 450px; /* Adjust the height to match the image dimensions */
+  background-image: url("./bot-nobg.png"); /* Adjust the image path as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.filler {
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center columns horizontally */
+  align-items: center; /* Center columns vertically */
+  margin-top: 20px;
+}
+
+.custom-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: #f5f5f5; /* Light background color */
+  padding: 10px 20px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+  margin: 10px; /* Add margin to separate columns */
+  text-decoration: none; /* Remove default link underline */
+  color: #333; /* Text color */
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  width: auto; /* Set a fixed width for all buttons */
+  position: relative; /* Required for absolute positioning of the icon */
+}
+
+/* Style for the icon (hidden by default) */
+.custom-button svg {
+  position: absolute; /* Position the icon absolutely within the button */
+  right: 10px; /* Adjust the right distance from the button's edge */
+  opacity: 0; /* Hide the icon by default */
+  font-size: 18px; /* Adjust the icon size */
+  transition: opacity 0.3s ease-in-out; /* Add transition effect for smooth visibility */
+  top: 50%; /* Move the icon to the vertical center */
+  transform: translateY(-50%); /* Adjust the position to vertically center the icon */
+}
+
+/* Show the icon on hover */
+.custom-button:hover svg {
+  opacity: 1; /* Display the icon on hover */
+  align-items: center;
+}
+
+.custom-button:hover {
+  background-color: #e0e0e0; /* Darker background color on hover */
+}
+
+.chat-button{
+  background-color: #507084;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.chat-button-container{
+  text-align: center;
+}

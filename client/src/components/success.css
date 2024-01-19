@@ -1,0 +1,74 @@
+/* Success.css */
+
+.success-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #507084; /* Your background color */
+  padding: 20px;
+  height: 60%; /* Adjust the height as needed */
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.bot-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.summary-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.summary-message {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.success-container {
+  background-color: #507084; /* Your background color */
+  padding: 15%;
+}
+
+/* CSS for Typing Animation */
+.summary-dialogue {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333; /* Text color */
+  white-space: nowrap; /* Prevent text from wrapping */
+
+  /* Animation */
+  overflow: hidden; /* Hide overflowing text */
+  border-right: 2px solid #333; /* Cursor border */
+  animation: typing 4s steps(40), blink-caret 0.75s step-end;
+}
+
+/* Keyframes for Typing Animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  100% {
+    border-color: #333;
+  }
+}
+
